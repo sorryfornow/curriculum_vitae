@@ -1,0 +1,277 @@
+%------------------------
+% Resume Template
+% Author : Anubhav Singh
+% Github : https://github.com/xprilion
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+% \setlength{\tabcolsep}{0in}
+\setlength{\parindent}{0pt}
+
+
+% Sections formatting
+% \titleformat{\section}{
+%   \vspace{-10pt}\scshape\raggedright\large
+% }{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-4pt}]
+
+% \titleformat{\section}{\normalfont\Large\bfseries}{\thesection}{1em}{}
+% \titlespacing*{\section}{0pt}{12pt}{6pt}
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \item\small{
+    \begin{tabular*}{0.97\textwidth}{@{}p{0.82\textwidth}@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{#2} \\
+      \textit{#3} & \textit{#4}
+    \end{tabular*}\vspace{-5pt}
+  }
+}
+
+\newcommand{\resumeSubItem}[2]{%
+  \item\small{%
+    \begin{tabular*}{0.97\textwidth}{@{}p{0.82\textwidth}@{\extracolsep{\fill}}r}
+      #1 & \textit{#2}
+    \end{tabular*}\vspace{-2pt}
+  }
+}
+\newcommand{\resumeSkillItem}[1]{
+  \item\small{
+    \begin{tabular*}{0.97\textwidth}{@{}p{0.97\textwidth}}
+      #1
+    \end{tabular*}\vspace{-2pt}
+  }
+}
+
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,label={}]}
+
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*,label={}]}
+
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
+
+
+\usepackage{titlesec}
+
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Siqing Zhang}} & \href{mailto:}{github.com/sorryfornow}\\
+  \href{https://xprilion.com}{Email: siqingzhang0210@gmail.com} & Mobile:+61~0452624869 \\
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{Personal Profile}
+I am a Master of Information Technology graduate with a robust background in engineering and coding, seeking an opportunity to thrive in collaborative environments and commit to delivering strong results. 
+With a passion for logic and problem solving, I am an enthusiastic team player eager to contribute to an engineering position within an organization that is poised to shape the future.
+
+\section{Education}
+  \resumeSubHeadingListStart
+      \resumeSubheading
+      {The University of New South Wales}{Kensington, NSW, AU}
+      {Master of Information Technology (With Excellence) 
+   WAM : 83}{Feb 2022 - Jan 2024}
+      % {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Courses:} Principles of Programming - 96, Foundations of Comp.Science - 94,  Data Structures \& Algorithm - 87, Design \& Analysis of Algorithms - 85, Database Systems - 86, Data Analysis for Graph - 90, DBMS implementation - 88, Big Data Management - 87. }}}
+      % \resumeSubheading
+      % {Oregon State University}{Corvallis, OR, US}{
+      % Master of Electronic Computer Engineering (unfinished)
+      % }{Sep 2020 - Dec 2020}
+    \resumeSubheading
+      {Northwestern Polytechnical University (ARWU top 200, 985 Project)}{Xi'an, P.R.China}
+      {Bachelor of Engineering - Electronics Information Engineering(USNEWS: 15th in world)}{July 2016 - June 2020}
+      
+      % {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Courses:} C Programming, Computational Methods, Principle of Data Communication, Digital Signal Processing, Digital Image Processing, Stochastic Signal Processing, Matlab Simulation, et al.}}}
+    % \vspace{-2pt}
+
+    \resumeSubHeadingListEnd
+
+
+\section{Skills Summary}
+\begin{itemize}[leftmargin=*, label={}]
+    \resumeSkillItem{\textbf{Languages:} \\C++, C, Python, HTML/CSS, JavaScript, SQL, Rust, Java}
+    \resumeSkillItem{\textbf{Frameworks and Libraries:} \\HDFS, Spark, PyTorch, TensorFlow, Scikit, OpenCV, PointCloud, ReactJS, NodeJS, SpringBoot, Bootstrap, Catch2, Bazel}
+    \resumeSkillItem{\textbf{Development Tools:} \\Matlab, PostgreSQL, MongoDB, Flask, Halcon, Unreal}
+\end{itemize}
+
+
+
+\section{Working Experience}
+\resumeSubHeadingListStart
+  \resumeSubheading{Shenzhen Cognvison Tech Inc.}{Shenzhen, P.R. China}
+    {Computer Vision Algorithm Engineering Intern}{Dec. 2020 - May 2021}
+    \begin{itemize}
+    % [label={}]
+      \item Developed solutions for PCB resin plug hole detection, collaborating with university teams and factories to enhance data collection and algorithm optimization.
+      \item Managed CNN model training, prepared datasets, and enhanced forum performance.
+      \item Designed algorithms for automated optical inspection.
+    \end{itemize}
+\resumeSubHeadingListEnd
+
+    
+%-----------PROJECTS-----------------
+\section{Projects}
+\resumeSubHeadingListStart
+
+\resumeSubItem{\textbf{Bicycle Trajectory Planning in Map Matching} \href{https://github.com/sorryfornow/StreetMatch}{\faGithub}\\
+Leader of a research group in collaboration with the Delft University of Tech. Using \textbf{C++} to implement kD-tree and bicycle trajectory with an improved swift comparing algorithm to match a feasible path within Zuid Holland where roads are complex and dense.}
+{Ongoing}
+
+\resumeSubItem{\textbf{Project Management System} \href{https://github.com/sorryfornow/ProjectManagementSystem}{\faGithub}\\
+Designed and implemented a full-stack web platform using \textbf{ReactJS}, \textbf{Flask}, and \textbf{MongoDB} that connects companies offering projects with interested individual contributors.}
+{Dec 2023}
+
+
+\resumeSubItem{\textbf{Messaging Tool} \href{https://github.com/sorryfornow/Slack_r}{\faGithub}\\
+Using vanilla \textbf{Javascript}, built a web-based messaging tool with features such as authentication, viewing and sending messages, and error handling.}
+{Dec 2023}
+
+% \resumeSubItem{\textbf{P2P Property Renting Service}
+% \href{https://github.com/sorryfornow/airbrb}{\faGithub}\\
+% Created a \textbf{ReactJS} application for a property renting service.}
+% {Dec 2023}
+
+% \resumeSubItem{\textbf{Pneumonia Detection}
+% \href{https://github.com/sorryfornow/pneumoniaDetect}{\faGithub}\\
+% Trained a neural network-based visual algorithm using \textbf{Python} and \textbf{PyTorch} to detect pneumonia from CT images.}
+% {Sep 2023}
+
+\resumeSubItem{\textbf{Database Management System} \href{https://github.com/sorryfornow/DBMS}{\faGithub}\\
+Create a database system in \textbf{C} from scratch, giving it methods such as JOIN and SELECT, similar to PostgreSQL.}
+{May 2023}
+
+% \resumeSubItem{\textbf{A Dataflow Pipeline} \href{https://github.com/sorryfornow/Pipeline}{\faGithub}\\
+% A simplified dataflow pipeline library in \textbf{C++}, making use of both static polymorphism (templates) and dynamic polymorphism (virtual functions and inheritance).}
+% {May 2023}
+
+% \resumeSubItem{\textbf{Filtered std::string\_view} \href{https://github.com/sorryfornow/filteredSTDStringView}{\faGithub}\\
+% Implement the functionality of string\_view in C++17 and ensure that it supports filtering based on the provided criteria.}
+% {May 2023}
+
+\resumeSubItem{\textbf{Pre-computed Index of Eccentricity for Temporal Graph} \href{https://github.com/sorryfornow/ecc_sample}{\faGithub}\\
+Created a pre-computed index using \textbf{C++} to query the eccentricity of each vertex in a temporal graph. The formula is frequently utilized in database analysis to calculate the size of the graph in scalable way.}
+{Dec 2023}
+
+% \resumeSubItem{\textbf{6D Pose Estimation of Underwater Rigid Body Based on Binocular Vision}\\
+% Developed a stereo matching and deep learning computer vision algorithm using a binocular camera, employing technologies such as \textbf{OpenCV}, \textbf{PCL}, \textbf{PyTorch}, \textbf{C++}, and \textbf{Python}.}
+% {Dec 2021}
+
+% \resumeSubItem{\textbf{Driver Fatigue Monitoring System Based on Intelligent Terminal}\\
+% \textit{National-level College Student Innovation Training Program, Ministry of Education P.R.China.}\\ Designed and trained a neural network algorithm in \textbf{Python} using video data to monitor driver fatigue status during driving.}
+% {May 2020}
+
+% \resumeSubItem{\textbf{I/Q Modulation Technology Based on Microwave Photonics}\\
+% \textit{National-level College Student Innovation Training Program, Ministry of Education P.R.China.}\\
+% Explored microwave photon orthogonal optical communication modulation using the Mach-Zehnder modulator.}
+% {May 2020}
+
+\resumeSubHeadingListEnd
+
+
+% \section{Projects}
+% \resumeSubHeadingListStart
+
+% \vspace{2pt}
+
+% \resumeSubItem{Bicycle Trajectory Plannning in Map Matching \href{https://github.com/sorryfornow/StreetMatch}{\faGithub}}{ 
+% \\ Leader of group that is researching xxxxxxxxx with in collaboration with the Delft University of Tech. Using kD-tree and bicycle trajectory with a improved swift comparing algorithm to match a feasible path within Zuid Holland where roads are complex and dense. (Ongoing)}
+
+
+% \resumeSubItem{Pre-computed Index of Eccentricity for Temporal Graph \href{https://github.com/sorryfornow/ecc_sample}{\faGithub} }{\\Created a pre-computed index using C++ to query the eccentricity of each vertex in a temporal graph which is highly occurred in analysis of databases. (2023)
+% }
+
+% \resumeSubItem{6D Pose Estimation of Underwater Rigid Body Based on Binocular Vision}{
+% \\Developed a stereo matching and deep learning algorithm using a binocular camera, utilizing technologies such as OpenCV, PCL, PyTorch, C++, and Python. (Dec. 2021)}
+
+% \resumeSubItem{Driver Fatigue Monitoring System Based on Intelligent Terminal}{\\National-level College Student Innovation Training Program, Ministry of Education P.R.China.\\ Designed and trained an algorithm using video data to monitor driver fatigue status during driving.\\(Worked as the Project Leader, Accomplished by May 2020) 
+% }
+
+% \resumeSubItem{I/Q Modulation Technology Based on Microwave Photonics}{\\National-level College Student Innovation Training Program, Ministry of Education P.R.China. \\
+% Based on the Mach-Zehnder modulator,explored a microwave photon orthogonal optical communication modulation technique. 
+% \\ (Idea validation \& Result analysis. Accomplished by May 2020) 
+% }
+
+% \resumeSubHeadingListEnd
+
+%  (Algorithm design and implementation for stereo matching and point cloud analysis and underwater objects dataset acquisition)This project developed an algorithm for 6D position estimation of underwater objects (size, distance, rotation angle etc.) to assist the robotic arm in grasping. Collected the underwater dataset. A stereo matching algorithm and a deep learning algorithm based on a binocular camera were developed to generate the target point cloud. PCL outlier detection and sampling, to estimate the parameters. 
+% Design the algorithm and Training the fatigue video data to probe the individual status during driving. By using mobile devices and intelligent terminal(Nvidia Jetson) to deploy the application. Tech: OpenCV \& CNN Model on TF1.0 
+
+% \resumeSubItem{Bilateral Knowledge Distillation for Unsupervised Domain Adaptation of Semantic Segmentation}{\\Shanghai Jiaotong University SEIEE\\(Datasets training\&Baseline algorithm implementation) Proposed a bilateral knowledge distillation framework for unsupervised domain adaptation in semantic segmentation. A Source-Flow Distillation to smooth the labels of source images, a Target-Flow Distillation to extract the inter-class knowledge in probability map output from the teacher model. (Submitted to IJCAI22)}
+% UNSW Data and Knowledge Research Group 
+% \\ As a significant indicator of the graph, eccentricity reflects the size of the graph such as the scale of social networks and the radius \& diameter of protein molecules. This work aims to build a pre-computed index for quickly query the Eccentricity of each vertex in a Temporal graph within the arbitrary given time period to indicate the vertices position distribution variation with different periods. 
+
+%-----------Awards-----------------
+\section{Honors and Awards}
+\resumeSubHeadingListStart
+    \resumeSubItem{Mathematical Modeling Warm-up Competition of NPU, First Prize}{2019}
+    \resumeSubItem{Excellent Student of School of Electronic and Information}{2018}
+    \resumeSubItem{Outstanding Volunteer of Shaanxi History Museum}{2017}
+\resumeSubHeadingListEnd
+
+
+\section{Others Experience}
+  \resumeSubHeadingListStart
+ \resumeSubheading
+    {Shaanxi History Museum }{Xi'an, P.R.China}
+    {Vice Captain of Volunteer Team}{Oct. 2016 - Dec. 2019}
+    \resumeItemListStart
+        \resumeItem{Service}{Arrange volunteer activities \& Provide free cultural relics explanation and service to the community.}
+    \resumeSubHeadingListEnd
+\resumeSubHeadingListEnd
+
+
+\end{document}
